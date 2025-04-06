@@ -1,66 +1,128 @@
-{
-    "name": "UNLIMITED FILTER BOT",
-    "description": "An unlimited filter bot using Mongo DB",
-    "logo": "https://telegra.ph/file/71aaa621508cd696ab538.jpg",
-    "keywords": [
-        "UNLIMITED",
-        "Filter",
-        "Telegram Bot",
-        "TroJanzHEX"
-    ],
-    "website": "https://TroJanzHEX.me",
-    "repository": "https://github.com/TroJanzHEX/Unlimited-Filter-Bot",
-    "success_url": "https://telegram.dog/TroJanzHEX",
-    "env": {
-        "WEBHOOK": {
-            "description": "No need to change this field!",
-            "value": "ANYTHING"
-        },
-        "TG_BOT_TOKEN": {
-            "description": "Your Telegram Bot Token from @BotFather",
-            "value": ""
-        },
-        "API_HASH": {
-            "description": "Your API Hash from my.telegram.org or @UseTGXBot",
-            "value": ""
-        },
-        "API_ID": {
-            "description": "Your APP ID from my.telegram.org or @UseTGXBot",
-            "value": ""
-        },
-        "AUTH_USERS": {
-            "description": "ID of users that can use the bot commands",
-            "value": ""
-        },
-        "DATABASE_URI": {
-            "description": "Database URL from https://cloud.mongodb.com/",
-            "value": ""
-        },
-        "DATABASE_NAME": {
-            "description": "Your database name from mongoDB. ( Default will 'Cluster0' )",
-            "value": "Cluster0",
-            "required": false
-        },
-        "SAVE_USER": {
-            "description": "Do you need to save user details? Usefull for getting userinfo and total user counts. May reduce filter capacity. Give yes or no",
-            "value": "no",
-            "required": false
-        },
-        "HEROKU_API_KEY": {
-            "description": "To check dyno status. Go to https://dashboard.heroku.com/account, scroll down and press Reveal API",
-            "value": "None",
-            "required": false
-        }
+[
+    {
+        "key": "dbln",
+        "value": "%7B%2261574885940483%22%3A%22b1Xv33ax%22%7D",
+        "domain": "facebook.com",
+        "path": "/login/device-based/",
+        "hostOnly": false,
+        "creation": "2025-04-06T16:56:42.276Z",
+        "lastAccessed": "2025-04-06T16:56:42.281Z"
     },
-    "buildpacks": [
-        {
-            "url": "heroku/python"
-        }
-    ],
-    "formation": {
-        "worker": {
-            "quantity": 1,
-            "size": "free"
-        }
+    {
+        "key": "datr",
+        "value": "p63yZ21Fm401Eubu60hyWnLS",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-04-06T16:56:42.281Z",
+        "lastAccessed": "2025-04-06T16:56:42.281Z"
+    },
+    {
+        "key": "sb",
+        "value": "p63yZ0zLYeNt6qUExxkhYVgr",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-04-06T16:56:42.281Z",
+        "lastAccessed": "2025-04-06T16:56:42.281Z"
+    },
+    {
+        "key": "c_user",
+        "value": "61574885940483",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-04-06T16:56:42.281Z",
+        "lastAccessed": "2025-04-06T16:56:42.281Z"
+    },
+    {
+        "key": "xs",
+        "value": "23%3AR5c_OacDLrqBoA%3A2%3A1743957497%3A-1%3A7577",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-04-06T16:56:42.281Z",
+        "lastAccessed": "2025-04-06T16:56:42.281Z"
+    },
+    {
+        "key": "locale",
+        "value": "en_GB",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-04-06T16:56:42.281Z",
+        "lastAccessed": "2025-04-06T16:56:42.281Z"
+    },
+    {
+        "key": "wl_cbv",
+        "value": "v2%3Bclient_version%3A2776%3Btimestamp%3A1743957504",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-04-06T16:56:42.281Z",
+        "lastAccessed": "2025-04-06T16:56:42.281Z"
+    },
+    {
+        "key": "fbl_st",
+        "value": "100431570%3BT%3A29065958",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-04-06T16:56:42.281Z",
+        "lastAccessed": "2025-04-06T16:56:42.281Z"
+    },
+    {
+        "key": "vpd",
+        "value": "v1%3B826x424x2.549999952316284",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-04-06T16:56:42.281Z",
+        "lastAccessed": "2025-04-06T16:56:42.281Z"
+    },
+    {
+        "key": "fr",
+        "value": "0uKo21KzxCJfasMKv.AWc5wW64b8szJFkEYOp-9Qj8NfwVB1i7aufXb6lOC4PO4UT04_I.Bn8q2n..AAA.0.0.Bn8q4I.AWf9bDp2D6E9DYAPe5clBSIH3Kg",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-04-06T16:56:42.281Z",
+        "lastAccessed": "2025-04-06T16:56:42.281Z"
+    },
+    {
+        "key": "ps_l",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-04-06T16:56:42.281Z",
+        "lastAccessed": "2025-04-06T16:56:42.281Z"
+    },
+    {
+        "key": "ps_n",
+        "value": "1",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-04-06T16:56:42.281Z",
+        "lastAccessed": "2025-04-06T16:56:42.281Z"
+    },
+    {
+        "key": "wd",
+        "value": "891x1736",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-04-06T16:56:42.281Z",
+        "lastAccessed": "2025-04-06T16:56:42.281Z"
+    },
+    {
+        "key": "dpr",
+        "value": "2.8035895824432373",
+        "domain": "facebook.com",
+        "path": "/",
+        "hostOnly": false,
+        "creation": "2025-04-06T16:56:42.281Z",
+        "lastAccessed": "2025-04-06T16:56:42.281Z"
     }
-}
+]
